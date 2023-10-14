@@ -1,0 +1,68 @@
+{
+  "name": "amazon-clone",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "precommit": "eslint .",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^2.1.6",
+    "axios": "^1.5.1",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "bootstrap": "^5.3.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "debug": "~2.6.9",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-formidable": "^1.2.0",
+    "express-recaptcha": "^5.1.0",
+    "express-validator": "^7.0.1",
+    "file": "^0.2.2",
+    "formidable": "^3.5.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mailgen": "^2.0.27",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.1",
+    "nodemailer": "^6.9.6",
+    "nodemon": "^3.0.1",
+    "randomstring": "^1.3.0",
+    "react-google-recaptcha": "^3.1.0",
+    "readdirp": "^3.6.0",
+    "sequelize": "^6.33.0",
+    "sequelize-cli": "^6.6.1",
+    "stripe": "^13.8.0",
+    "util": "^0.12.5",
+    "validator": "^13.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-n": "^16.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.0",
+    "lint-staged": "^14.0.1"
+  },
+  "description": "* NodeJS\r * MySQL\r * [ORM](https://sequelize.org/docs/v6/getting-started/)\r * ReactJs",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashvin-kumbhani/amazon-clone-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashvin-kumbhani/amazon-clone-backend/issues"
+  },
+  "homepage": "https://github.com/ashvin-kumbhani/amazon-clone-backend#readme"
+}
